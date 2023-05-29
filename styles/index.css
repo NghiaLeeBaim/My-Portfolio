@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    background: black;
+    color: white;
+    margin: 0 auto;
+}
+
+.container .menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.container .content h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.container .content h3 {
+    color: yellow;
+    padding-left: 880px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.container .scroll{
+    text-align: center;
+ 
+}
+
+.container .scroll a{
+    text-decoration: none;
+}
+
+.container .scroll p{
+    margin-top: 400px;
+    font-size: 30px;
+    color: white;
+}
+
+.container .scroll i{
+    font-size: 20px;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    animation: mymove 3s infinite;
+}
+
+.container #work{
+    padding-top: 350px;
+    font-weight: 300
+}
+
+.container #work h3{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.container #work hr{
+    width: 300px;
+    font-size: 1px;
+    color: white;
+   margin: 0 auto;
+}
+
+.container #work .project{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 98px;
+}
+
+.container #work .project .content{
+    line-height: 1;
+    width: 50%;
+}
+
+.container #work .project .content p{
+    font-size: 25px;
+    padding: 5px 50px;
+}
+
+.container #work .project img{
+    width: 400px;
+    width: 50%;
+}
+
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 50px;}
+  }
